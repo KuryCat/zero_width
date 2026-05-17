@@ -7,10 +7,10 @@ set "PYTHONIOENCODING=utf-8"
 if "%~1"=="" (
   echo Usage: zw [text] {hidden}
   echo.
-  echo   zw "Tôi [yêu] em"
-  echo   zw "Tôi [___] em" "yêu"
-  echo   zw reveal "Tôi [yêu] em"
-  echo   zw merge "Tôi [___] em" "yêu"
+  echo   zw "Tôi [và] bạn"
+  echo   zw "Tôi [___] bạn" "và"
+  echo   zw reveal "Tôi [với] bạn "
+  echo   zw merge "Tôi [___] bạn" "với"
   exit /b 1
 )
 python "%SCRIPT%" %*
